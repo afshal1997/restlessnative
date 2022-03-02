@@ -2,6 +2,7 @@ import React from 'react'
 import { Button, Col, Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import './home.css'
 
 function MainSection() {
     return (
