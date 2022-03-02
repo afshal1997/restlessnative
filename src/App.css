@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Helvetica Now Text ";
+  src: local("Helvetica Now Text  Regular"), local("Helvetica-Now-Text--Regular"), url("../src/assets/fonts/HelveticaNowText-Regular.woff2") format("woff2"), url("../src/assets/fonts/HelveticaNowText-Regular.woff") format("woff"), url("../src/assets/fonts/HelveticaNowText-Regular.ttf") format("truetype");
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Now Text ";
+  scroll-behavior: smooth;
+}
+
+
+/* mainSectionCss */
+
+.mainSection {
+  background: url("./assets/homeSection/mainBanner.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 10px 20px;
+  position: relative;
+  height: 100vh;
+}
+
+.mainBannerHeading {
+  position: absolute;
+  top: 60%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.mainBannerHeading h2 {
+  font-size: 13.33333vw;
+  font-weight: 500;
+  line-height: 0.99em;
+  letter-spacing: -0.04em;
+  line-height: 0.85em;
+  color: #fff;
+  transition: transform 0.8s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.8s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.mainBannerHeading h5 {
+  font-size: 2vw;
+  font-weight: 400;
+  line-height: 0.99em;
+  letter-spacing: -0.04em;
+  color: #fff;
+}
+
+.BtnLink {
+  font-size: 1.53333vw;
+  font-weight: 400;
+  line-height: 0.99em;
+  letter-spacing: -0.04em;
+}
+
+
+/* End */
+
+
+/* responsive */
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  .mainBannerHeading {
+      top: 45%;
+  }
+  .mainBannerHeading h2 {
+      font-size: 80px;
+      font-weight: 600;
+      padding-left: 0 !important;
+      display: block;
+      margin-left: -0.11em;
+      margin-bottom: -0.05em;
+      padding: 0.01em;
+      word-break: break-all;
+      line-height: 1;
+  }
+}
+
+
+/* End */

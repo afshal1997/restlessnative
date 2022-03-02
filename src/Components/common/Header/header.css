@@ -1,0 +1,16 @@
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    margin: auto 20px;
+}
+
+a.navbar-brand img {
+    max-width: 85px;
+    height: 100%;
+    max-height: 85px;
+}
