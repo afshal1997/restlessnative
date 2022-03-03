@@ -1,16 +1,34 @@
 @font-face {
   font-family: "Helvetica Now Text ";
-  src: local("Helvetica Now Text  Regular"), local("Helvetica-Now-Text--Regular"), url("../src/assets/fonts/HelveticaNowText-Regular.woff2") format("woff2"), url("../src/assets/fonts/HelveticaNowText-Regular.woff") format("woff"), url("../src/assets/fonts/HelveticaNowText-Regular.ttf") format("truetype");
+  src: local("Helvetica Now Text  Regular"),
+    local("Helvetica-Now-Text--Regular"),
+    url("../src/assets/fonts/HelveticaNowText-Regular.woff2") format("woff2"),
+    url("../src/assets/fonts/HelveticaNowText-Regular.woff") format("woff"),
+    url("../src/assets/fonts/HelveticaNowText-Regular.ttf") format("truetype");
   font-weight: 500;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: HelveticaNowText,Helvetica,Arial,sans-serif;
+  font-family: HelveticaNowText, Helvetica, Arial, sans-serif;
   scroll-behavior: smooth;
 }
 
-.btn-link{
+.btn-link {
   text-decoration: none !important;
+}
+.footer-logo {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+}
+.images-in-section4 img {
+  height: 600px;
+  max-height: 600px;
+  object-fit: cover;
+}
+.images-in-section4 h1 {
+  font-size: 3rem;
 }
