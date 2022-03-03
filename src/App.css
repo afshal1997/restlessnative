@@ -7,6 +7,10 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Helvetica Now Text ";
+  font-family: HelveticaNowText,Helvetica,Arial,sans-serif;
   scroll-behavior: smooth;
+}
+
+.btn-link{
+  text-decoration: none !important;
 }

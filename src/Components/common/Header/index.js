@@ -19,9 +19,9 @@ function Header() {
               <Nav.Link href="#join">join</Nav.Link>
               <Nav.Link href="#prizes">prizes</Nav.Link>
             </Nav>
-            <Nav>
+            {/* <Nav>
               <Nav.Link href="#deets">More deets</Nav.Link>
-            </Nav>
+            </Nav> */}
           </Navbar.Collapse>
         </Container>
       </Navbar>

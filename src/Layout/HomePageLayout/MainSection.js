@@ -15,7 +15,7 @@ function MainSection() {
                     </Col>
                     <Col lg={4} className='m-auto me-0 mt-5'>
                         <h5>
-                            Limit your travel, not your adventures. Explore your surroundings, share your experience and win!
+                            Lorem Ipsum is simply dummy text of the printing
                         </h5>
                         <Button variant="transparent" className='text-light BtnLink p-0 mt-4'> <FontAwesomeIcon icon={faArrowRight} /> Share your adventure</Button>
                     </Col>
