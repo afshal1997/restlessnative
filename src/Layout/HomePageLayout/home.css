@@ -4,6 +4,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
     padding: 10px 20px;
     position: relative;
     height: calc(100vh + 24vw);
@@ -14,6 +16,7 @@
     top: 40%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    width: 90%;
 }
 
 .mainBannerHeading h2 {
@@ -23,7 +26,7 @@
     letter-spacing: -0.04em;
     line-height: 0.85em;
     color: #fff;
-    transition: transform 0.8s cubic-bezier(0.165, 0.84, 0.44, 1), opacity 0.8s cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    text-transform: uppercase;
 }
 
 .mainBannerHeading h5 {
@@ -161,6 +164,13 @@
     transition: 1s;
 }
 
+.Img1:hover img,
+.Img2:hover img,
+.Img3:hover img,
+.Img4:hover img {
+    filter: brightness(0.7);
+}
+
 .Img2:hover svg{
     transition: 1s;
     right: 30%;
@@ -168,7 +178,7 @@
 }
 
 .NowItYourTurnMainHeading h2 {
-    font-size: 6.66667vw;
+    font-size: 6.66667rem;
     font-weight: 500;
     line-height: .99em;
     letter-spacing: -.04em;
@@ -235,9 +245,43 @@
     transition: 1s;
 }
 
+.images-in-section4 img {
+    height: 100%;
+    min-height: 650px;
+    object-fit: cover;
+  }
+  .images-in-section4 h2 {
+    font-size: 3.33333rem;
+    text-align: center;
+    font-weight: 700;
+    right: 0;
+    left: 0;
+  }
+  .images-in-section4 p{
+    font-size: 1.06667rem;
+    font-weight: 500;
+    line-height: .99em;
+    letter-spacing: -.04em;
+    text-align: center;
+  }
+
+  .section4Card01{
+        margin-top: 150px;
+  }
+
+  .section4Card03{
+    margin-top: 300px;
+  }
+
 /* responsive */
 
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
+
+    a.navbar-brand img{
+        max-width: 65px;
+        max-height: 65px;
+    }
+
     .mainBannerHeading {
         top: 55%;
     }
@@ -276,6 +320,7 @@
     .Img4 img{
         max-width: 100%;
         max-height: 100%;
+        min-height: 350px;
     }
 
     .Img1 h3, .Img2 h3, .Img4 h3, .Img3 h3{
@@ -286,6 +331,76 @@
         left: 20px;
     }
 
+    .NowItYourTurnMainHeading h2 {
+        font-size: 1.2rem;
+    }
+
+    .scrollVertically button {
+        position: relative;
+        min-height: 15.33333rem;
+        max-height: 15.33333rem;
+        min-width: 17rem;
+        transition: 1s;
+    }
+
+    .scrollVertically h2{
+        left: 20px;
+    }
+
+    .scrollVertically button:nth-child(even){
+        min-height: 12.73333rem;
+        max-height: 12.73333rem; 
+        bottom: -40px; 
+    }
+
+    .scrollVertically p {
+        left: 20px;
+        font-size: 1rem;
+    }
+
+    .section4Card01,
+    .section4Card02,
+    .section4Card03 {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .NowItYourTurnMainHeading{
+        margin: 20px auto !important;
+    }
+
+    .NowItYourTurn{
+        padding: 50px 10px;
+    }
+
+    .Img2:hover svg{
+        right: 20px;
+    }
+
+    .images-in-section4 {
+        margin-top: 0 !important;
+    }
+
+    .images-in-section4 h2{
+        font-size: 2.33333rem;
+    }
+
+    .video01 iframe {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+    .mainBannerHeading h2{
+        font-size: 60px;
+    }
+
+}
+
+@media screen and (max-width: 991px){
+    .mainSection{
+        background-attachment: scroll;
+        height: 100vh;
+    }
 }
 
 

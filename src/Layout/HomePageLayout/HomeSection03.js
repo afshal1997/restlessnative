@@ -9,7 +9,7 @@ import HomeSection03Img06 from '../../assets/homeSection/section3img6.jpg'
 
 const HomeSection03 = () => {
     return (
-        <div className='NowItYourTurn'>
+        <div className='NowItYourTurn' id='homeSection03'>
             <Container fluid>
                 <div className="NowItYourTurnMainHeading">
                     <Col lg={12}>

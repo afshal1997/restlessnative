@@ -1,16 +1,72 @@
-.navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 1);
+.nav-link {
+    color: rgba(255, 255, 255, 1) !important;
     font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
 }
 
 .nav-link {
-    margin: auto 20px;
+    margin: auto 0px;
 }
 
 a.navbar-brand img {
     max-width: 85px;
     height: 100%;
     max-height: 85px;
+}
+
+.navbar-nav .nav-link{
+    padding: 10px 10px 20px;
+    width: 100%;
+    min-width: 140px;
+    text-align: center;
+    position: relative;
+}
+
+.active-Link{
+    position: relative;
+    transition: 1s;
+}
+
+.active-Link::before{
+    content: '';
+    background: url('../../../assets/header/activeNavBg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: -30px;
+    right: 0;
+    left: 0;
+    display: block;
+    filter: drop-shadow(3px 1px 2px black);
+    transition: 1s;
+}
+
+
+@media screen and (max-width: 991px){
+    .mobileView {
+        position: fixed !important;
+        width: 100% !important;
+        bottom: 0 !important;
+    }
+    .active-Link::before{
+        background-size: 90% 90%;
+        transform: rotate(180deg);
+    }
+    .images-in-section4 h2{
+        font-size: 2.33333rem;
+    }
+    .footer-logo {
+        padding: 50px 0 80px !important;
+        display: block;
+        border-top: 1px solid;
+        margin-top: 40px !important;
+    }
+    .footer-logo img {
+        max-width: 70px;
+        max-height: 70px;
+    }
 }
