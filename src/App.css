@@ -45,3 +45,20 @@ h2.footerLinks {
   line-height: .99em;
   letter-spacing: -.04em;
 }
+
+#CDSSCROLLINGRAVE.narrow {
+  width: 30% !important;
+  margin-bottom: 20px;
+}
+
+.widEXCIMG{
+  height: 40px !important;
+  max-width: 76px !important;
+}
+
+@media screen and (max-width: 991px){
+  #CDSSCROLLINGRAVE.narrow {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+}

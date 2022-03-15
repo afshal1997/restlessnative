@@ -4,9 +4,26 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import FooterLogo from '../../../assets/header/Logo.png'
 function Footer() {
+   
+
     return (
         <footer className='footer'>
             <Container fluid>
+                <div id="TA_cdsscrollingravenarrow595" className="TA_cdsscrollingravenarrow">
+                    <ul id="3iTVfWVLmh" className="TA_links Rr2JGs">
+                        <li id="xH6wnAzK13" className="TaBjNElyGvWT">
+                            <a
+                                target="_blank"
+                                href="https://www.tripadvisor.com/Attraction_Review-g34345-d1113820-Reviews-Restless_Native_Charters-Key_West_Florida_Keys_Florida.html">
+                                <img
+                                    src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_vertical.svg"
+                                    alt="TripAdvisor"
+                                    class="widEXCIMG"
+                                    id="CDSWIDEXCLOGO" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <Row className='align-items-center px-5'>
                     <Col lg={6}>
                         <Row>

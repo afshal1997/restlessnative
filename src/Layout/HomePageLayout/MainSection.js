@@ -16,7 +16,7 @@ function MainSection() {
                     </Col>
                     <Col lg={4} className='m-auto me-0 mt-5'>
                         <h5 data-aos="fade-right" data-aos-duration="1000">
-                            Lorem Ipsum is simply dummy text of the printing
+                            private sailing charters to adventurous locations aboard the luxurious ARIA and/or Zodiac.
                         </h5>
                         <Button variant="transparent" className='text-light BtnLink p-0 mt-4' data-aos="fade-right" data-aos-duration="1000"> <FontAwesomeIcon icon={faArrowRight} /> Share your adventure</Button>
                     </Col>

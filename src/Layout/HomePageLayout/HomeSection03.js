@@ -6,7 +6,7 @@ import HomeSection03Img03 from '../../assets/homeSection/section3img3.jpg'
 import HomeSection03Img04 from '../../assets/homeSection/section3img4.jpg'
 import HomeSection03Img05 from '../../assets/homeSection/section3img5.jpg'
 import HomeSection03Img06 from '../../assets/homeSection/section3img6.jpg'
-
+import BookNowButton from '../../Components/common/bookNowButton'
 const HomeSection03 = () => {
     return (
         <div className='NowItYourTurn' id='homeSection03'>
@@ -17,56 +17,60 @@ const HomeSection03 = () => {
                     </Col>
 
                     <div className='scrollVertically'>
-                        <Button variant="link">
+                        <a href="https://fareharbor.com/embeds/book/restlessnative/?full-items=yes" onclick="return !(window.FH && FH.open({ shortname:  'restlessnative', fallback: 'simple', fullItems: 'yes', view: 'items' })); " variant="link">
                             <img
                                 src={HomeSection03Img01}
                                 alt="HomeSection03Img01"
                             />
-                            <h2><i>Join </i>our challenge on Strava…</h2>
+                            <h3><i>Half Day Sail</i></h3>
+                            <BookNowButton />
                             <p>328,657 are already participating</p>
-                        </Button>
-                        <Button variant="link">
+                        </a>
+                        <a href="https://fareharbor.com/embeds/book/restlessnative/?full-items=yes" onclick="return !(window.FH && FH.open({ shortname:  'restlessnative', fallback: 'simple', fullItems: 'yes', view: 'items' })); " variant="link">
                             <img
                                 src={HomeSection03Img02}
                                 alt="HomeSection03Img02"
                             />
-                            <h2><i>Share</i> your adventure on Instagram…</h2>
-                            <p>10,203 are already sharing on #localadventurechallenge</p>
-                        </Button>
-                        <Button variant="link">
+                            <h3><i>Sunset Sail</i></h3>
+                            <BookNowButton />
+                            <p>$1000 to $2,000 | 3 hours | 6 guests | Picture perfect sunset cruise</p>
+                        </a>
+                        <a href="https://fareharbor.com/embeds/book/restlessnative/?full-items=yes" onclick="return !(window.FH && FH.open({ shortname:  'restlessnative', fallback: 'simple', fullItems: 'yes', view: 'items' })); " variant="link">
                             <img
                                 src={HomeSection03Img03}
                                 alt="HomeSection03Img03"
                             />
-                            <h2><i>Test &amp; Feel</i> the Ducan Spine backpack...</h2>
-                            <p>23 participating Mammut Stores</p>
-                        </Button>
-                        <Button variant="link">
+                            <h3><i>Epic Sail</i></h3>
+                            <BookNowButton />
+                            <p>$2,500 to $3,500 | 12 hours | 6 guests | See the Keys by SEA!</p>
+                        </a>
+                        <a href="https://fareharbor.com/embeds/book/restlessnative/?full-items=yes" onclick="return !(window.FH && FH.open({ shortname:  'restlessnative', fallback: 'simple', fullItems: 'yes', view: 'items' })); " variant="link">
                             <img
                                 src={HomeSection03Img04}
                                 alt="HomeSection03Img04"
                             />
-                            <h2><i>Find</i> a local adventure on FATMAP...</h2>
-                            <p>9,123 guidebooks</p>
-                        </Button>
-                        <Button variant="link">
+                            <h3><i>Special Events</i></h3>
+                            <BookNowButton />
+                        </a>
+                        <a href="https://fareharbor.com/embeds/book/restlessnative/?full-items=yes" onclick="return !(window.FH && FH.open({ shortname:  'restlessnative', fallback: 'simple', fullItems: 'yes', view: 'items' })); " variant="link">
                             <img
                                 src={HomeSection03Img05}
                                 alt="HomeSection03Img05"
                             />
-                            <h2><i>Get inspired</i> for your local adventures in Switzerland</h2>
-                            <p>15 local partners</p>
-                        </Button>
-                        <Button variant="link">
+                            <h3><i>3/4 Day Sail</i></h3>
+                            <BookNowButton />
+                            <p>$1,400 to $2,400  | 6 Hour Sail | Max 6 People Private Charter</p>
+                        </a>
+                        <a href="https://fareharbor.com/embeds/book/restlessnative/?full-items=yes" onclick="return !(window.FH && FH.open({ shortname:  'restlessnative', fallback: 'simple', fullItems: 'yes', view: 'items' })); " variant="link">
                             <img
                                 src={HomeSection03Img06}
                                 alt="HomeSection03Img06"
                             />
-                            <h2><i>Get</i> the right adventure gear</h2>
-                            <p>1,438 adventure products available</p>
-                        </Button>
+                            <h3><i>Overnight Expedition</i></h3>
+                            <BookNowButton />
+                            <p>$2500 to $3,500| Private Charter | Spend the Night On the Water! | Max 4 people</p>
+                        </a>
                     </div>
-
                 </div>
             </Container>
         </div>
