@@ -18,7 +18,7 @@ function Footer() {
                                 <img
                                     src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_vertical.svg"
                                     alt="TripAdvisor"
-                                    class="widEXCIMG"
+                                    className="widEXCIMG"
                                     id="CDSWIDEXCLOGO" />
                             </a>
                         </li>

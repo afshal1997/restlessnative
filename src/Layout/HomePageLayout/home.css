@@ -168,7 +168,7 @@
 button.bookNow {
     position: absolute;
     left: 30px;
-    top: 140px;
+    top: 150px;
     border: none;
     background: #0a6ece;
     color: #fff;
@@ -191,11 +191,13 @@ button.bookNow {
     z-index: -1;
   }
   .images-in-section4 h2 {
-    font-size: 3.33333rem;
+    font-size: 1.7rem;
     text-align: center;
     font-weight: 700;
     right: 0;
     left: 0;
+    width: 90%;
+
   }
   .images-in-section4 p{
     font-size: 1.06667rem;
@@ -223,6 +225,128 @@ button.bookNow {
     transition: 1s;
 }
 
+.Img1 img {
+    height: 100%;
+    max-height: 33.33333rem;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: block;
+    position:relative;
+    transition: 1s;
+}
+
+.Img2 img{
+    height: 100%;
+    max-width: calc(100% - 13.4rem);
+    max-height: 44.33333rem;
+    object-fit: cover;
+    margin-bottom: 20px;
+    position:relative;
+    transition: 1s;
+}
+
+.Img3 img{
+    max-width: calc(100% - 13.4rem);
+    height: 100%;
+    max-height: 44.33333rem;
+    object-fit: cover;
+    margin: auto;
+    margin-right: 0;
+    display: block;
+    margin-bottom: 15px;
+    position:relative;
+    transition: 1s;
+}
+
+.Img4 img{
+    height: 100%;
+    max-height: 33.33333rem;
+    min-height: 33.33333rem;
+    object-fit: cover;
+    margin: auto;
+    margin-right: 0;
+    display: block;
+    margin-bottom: 15px;
+    position:relative;
+    transition: 1s;
+}
+
+.Img1 h3,
+.Img2 h3,
+.Img4 h3 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 3rem;
+    line-height: .99em;
+    letter-spacing: -.04em;
+    color: #fff;
+    transition: 1s;
+}
+
+.Img3 h3{
+    position: absolute;
+    bottom: 20px;
+    right: 60px;
+    font-size: 3rem;
+    line-height: .99em;
+    letter-spacing: -.04em;
+    color: #fff;
+    transition: 1s;
+}
+
+.Img1 h3 span,
+.Img2 h3 span,
+.Img3 h3 span,
+.Img4 h3 span{
+    font-size: 1.46667rem;
+    transition: 1s;
+}
+
+.Img1 svg,
+.Img2 svg,
+.Img3 svg,
+.Img4 svg {
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: 1s;
+}
+
+.Img1:hover svg,
+.Img3:hover svg,
+.Img4:hover svg{
+    transition: 1s;
+    right: 20px;
+    opacity: 1;
+}
+
+.Img1:hover h3 span,
+.Img2:hover h3 span,
+.Img3:hover h3 span,
+.Img4:hover h3 span{
+    font-size: 0rem;
+    opacity: 0;
+    transition: 1s;
+}
+
+.Img1:hover img,
+.Img2:hover img,
+.Img3:hover img,
+.Img4:hover img {
+    filter: brightness(0.7);
+}
+
+.Img2:hover svg{
+    transition: 1s;
+    right: 30%;
+    opacity: 1;
+}
+
 .section4Card01:hover img,
 .section4Card02:hover img,
 .section4Card03:hover img{
@@ -231,6 +355,19 @@ button.bookNow {
     z-index: -1;
     position: relative;
 }
+
+.scrollVertically h6 {
+    color: #fff;
+    font-size: 1.33333rem;
+    font-weight: 500;
+    line-height: .99em;
+    letter-spacing: -.04em;
+    text-align: left;
+    position: absolute;
+    top: 119px;
+    left: 30px;
+}
+
 .section4Card01:hover .linkArrow,
 .section4Card02:hover .linkArrow,
 .section4Card03:hover .linkArrow{
@@ -349,7 +486,7 @@ button.bookNow {
     }
 
     .images-in-section4 h2{
-        font-size: 2.33333rem;
+        font-size: 1rem;
     }
 
     .video01 iframe {
@@ -364,7 +501,7 @@ button.bookNow {
     button.bookNow {
         position: absolute;
         left: 10px;
-        top: 80px;
+        top: 100px;
         padding: 5px 5px;
         border-radius: 5px;
         font-size: 0.8rem;
@@ -373,6 +510,11 @@ button.bookNow {
     .scrollVertically h3{
         font-size: 1.5rem;
         top: 40px;
+        left: 10px;
+    }
+    .scrollVertically h6{
+        font-size: 1rem;
+        top: 70px;
         left: 10px;
     }
 
