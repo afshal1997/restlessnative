@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container } from 'react-bootstrap'
+import ChooseOurAdvanture from '../../Components/HomeComponentSection03/ChooseOurAdvanture'
 import { HomeSection3Content } from './HomePageContent'
-import ChooseOurAdvanture from '../../Components/common/ChooseOurAdvanture'
 const HomeSection03 = () => {
     return (
         <div className='NowItYourTurn' id='homeSection03'>
@@ -12,14 +12,12 @@ const HomeSection03 = () => {
                     </Col>
 
                     <div className='scrollVertically'>
-
                         {
                             React.Children.toArray(
-                                HomeSection3Content.map((data, idx) => {
+                                HomeSection3Content.map((data) => {
                                     return (
                                         <ChooseOurAdvanture {...data} />
                                     )
-                                    
                                 })
                             )
                         }

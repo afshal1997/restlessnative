@@ -33,7 +33,7 @@ a.navbar-brand img {
     background: url('../../../assets/header/activeNavBg.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 100px;
+    height: 90px;
     width: 100%;
     position: absolute;
     z-index: -1;

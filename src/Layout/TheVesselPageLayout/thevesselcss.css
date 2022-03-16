@@ -1,0 +1,48 @@
+.theVesselMain{
+    background: url('../../assets/theVessel/theVesselMainBg.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding: 40px 15px;
+}
+
+.theVesselMainBannerContent h2 {
+    font-size: 4rem;
+}
+
+.theVesselBookNow{
+    background: transparent;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+    transition: 1s;
+    padding: 5px 10px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px 0;
+    display: block;
+    width: fit-content;
+    font-size: 1.2rem;
+}
+
+.theVesselBookNow:hover{
+    background: #0a6ece;
+    border: 1px solid #0a6ece;
+    transition: 1s;
+    color: #fff;
+}
+
+.theVesselSection04MainHeading h2, 
+.theVesselSection02MainHeading h2 {
+    font-size: 3rem;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.TheVesselSection04Ul ul,
+.TheVesselSection03Ul ul {
+    font-size: 1rem;
+    font-weight: 500;
+}

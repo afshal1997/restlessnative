@@ -4,7 +4,7 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import FooterLogo from '../../../assets/header/Logo.png'
 function Footer() {
-   
+
 
     return (
         <footer className='footer'>
