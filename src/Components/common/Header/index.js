@@ -40,7 +40,7 @@ function Header() {
         style={{ background: color, backdropFilter: blur, transition: transition }}
       >
         <Container fluid>
-          <Navbar.Brand href="/home">
+          <Navbar.Brand href="/">
             <img className="w-100" src={Logo} alt="logo" style={{height: height, transition: transition }} />
           </Navbar.Brand>
           <Nav className="m-auto w-100">

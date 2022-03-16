@@ -1,11 +1,12 @@
 import './App.css';
-import Header from './Components/common/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from './Components/common/Footer/index';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import Routers from './Routers';
+import Home from './Components/Pages/Home';
+import TheVessel from './Components/Pages/TheVessel';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
 
 
 function App() {
@@ -14,9 +15,16 @@ function App() {
   }, [])
   return (
     <div className="App">
-      <Header />
-      <Routers />
-      <Footer />
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/the-vessel" exact component={TheVessel} />
+        </Switch>
+      </BrowserRouter>
+      {/* <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/the-vessel" element={<TheVessel />} />
+      </Routes> */}
     </div>
   );
 }
