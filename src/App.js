@@ -21,10 +21,6 @@ function App() {
           <Route path="/the-vessel" exact component={TheVessel} />
         </Switch>
       </BrowserRouter>
-      {/* <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/the-vessel" element={<TheVessel />} />
-      </Routes> */}
     </div>
   );
 }
