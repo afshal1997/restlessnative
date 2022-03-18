@@ -1,5 +1,5 @@
 import React from 'react'
-import BookNowButton from '../../Components/common/BookNowButton'
+import BookNowButton from './../common/bookNowButton';
 const ChooseOurAdvanture = ({ linkPage, subTitle, title, img, paraGraph }) => {
     return (
         <a href={linkPage ?? 'javascript:void(0)'} >
@@ -9,7 +9,7 @@ const ChooseOurAdvanture = ({ linkPage, subTitle, title, img, paraGraph }) => {
             />
             <h3><i>{title}</i></h3>
             <h6><i>{subTitle}</i></h6>
-            <BookNowButton/>
+            <BookNowButton />
             <p>{paraGraph}</p>
         </a>
     )
