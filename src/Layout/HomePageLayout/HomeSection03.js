@@ -8,6 +8,7 @@ const HomeSection03 = () => {
             <Container fluid>
                 <div className="NowItYourTurnMainHeading">
                     <Col lg={12}>
+                        <h2>Now it's <i>your</i> turn...</h2>
                         <h2>Choose <i>your adventure</i></h2>
                     </Col>
 

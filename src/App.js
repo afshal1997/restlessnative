@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import Home from './Components/Pages/Home';
 import TheVessel from './Components/Pages/TheVessel';
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Route, BrowserRouter, Link } from 'react-router-dom';
 import { Switch } from 'react-router-dom';
 
 
@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/home" exact component={Home} />
           <Route path="/the-vessel" exact component={TheVessel} />
         </Switch>
       </BrowserRouter>
