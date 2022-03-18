@@ -3,6 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import Logo from '../../../assets/header/Logo.png';
 import "./header.css"
 import Scrollspy from 'react-scrollspy'
+import { useHistory } from "react-router-dom";
 
 
 function Header() {
@@ -30,6 +31,9 @@ function Header() {
     window.addEventListener('scroll', listenScrollEvent)
   }, [])
 
+  
+  let history = useHistory();
+
   return (
     <>
       <Navbar
@@ -55,9 +59,9 @@ function Header() {
               currentClassName="active-Link"
               className="d-flex align-itesm-center justify-content-center ps-0 mt-0 m-auto mobileView"
             >
-              <Nav.Link href="/#homeSection02">inspiration</Nav.Link>
-              <Nav.Link href="/#homeSection03">join</Nav.Link>
-              <Nav.Link href="/#homeSection04">prizes</Nav.Link>
+              <Nav.Link href="/#homeSection02" onClick={() => history.goBack()}>inspiration</Nav.Link>
+              <Nav.Link href="/#homeSection03" onClick={() => history.goBack()}>join</Nav.Link>
+              <Nav.Link href="/#homeSection04" onClick={() => history.goBack()}>prizes</Nav.Link>
             </Scrollspy>
           </Nav>
         </Container>

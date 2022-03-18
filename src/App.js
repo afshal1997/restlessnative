@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import Home from './Components/Pages/Home';
 import TheVessel from './Components/Pages/TheVessel';
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import {Route, BrowserRouter } from 'react-router-dom';
 import { Switch } from 'react-router-dom';
 
 
@@ -13,6 +13,7 @@ function App() {
   useEffect(() => {
     AOS.init()
   }, [])
+
   return (
     <div className="App">
       <BrowserRouter>
@@ -21,10 +22,6 @@ function App() {
           <Route path="/the-vessel" exact component={TheVessel} />
         </Switch>
       </BrowserRouter>
-      {/* <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/the-vessel" element={<TheVessel />} />
-      </Routes> */}
     </div>
   );
 }
