@@ -70,35 +70,41 @@ export const HomeSection3Content = [
         img: HomeSection03Img01,
         title: 'Half Day Sail',
         subTitle: 'Sail-4hrs',
-        paraGraph: '328,657 are already participating'
+        paraGraph: '328,657 are already participating',
+        linkPage:"https://fareharbor.com/embeds/book/restlessnative/items/105610/?full-items=yes&flow=93101"
     },
     {
         img: HomeSection03Img02,
         title: 'Sunset Sail',
         subTitle: 'Sail-3hrs',
-        paraGraph: '$1000 to $2,000 | 3 hours | 6 guests | Picture perfect sunset cruise'
+        paraGraph: '$1000 to $2,000 | 3 hours | 6 guests | Picture perfect sunset cruise',
+        linkPage:'https://fareharbor.com/embeds/book/restlessnative/items/105623/?full-items=yes&flow=93101'
     },
     {
         img: HomeSection03Img03,
         title: 'Epic Sail',
         subTitle: 'Full Day',
-        paraGraph: '$2,500 to $3,500 | 12 hours | 6 guests | See the Keys by SEA!'
+        paraGraph: '$2,500 to $3,500 | 12 hours | 6 guests | See the Keys by SEA!',
+        linkPage:"https://fareharbor.com/embeds/book/restlessnative/items/105628/?full-items=yes&flow=93101"
     },
     {
         img: HomeSection03Img04,
         title: 'Special Events',
         subTitle: 'Dry Tortugas Adventure',
+        linkPage:"https://fareharbor.com/embeds/book/restlessnative/items/?flow=93102&full-items=yes"
     },
     {
         img: HomeSection03Img05,
         title: '3/4 Day Sail',
         subTitle: 'Sail-6hrs',
-        paraGraph: '$1,400 to $2,400  | 6 Hour Sail | Max 6 People Private Charter'
+        paraGraph: '$1,400 to $2,400  | 6 Hour Sail | Max 6 People Private Charter',
+        linkPage:'https://fareharbor.com/embeds/book/restlessnative/items/114445/?full-items=yes&flow=93101'
     },
     {
         img: HomeSection03Img06,
         title: 'Overnight Expedition',
         subTitle: 'Dry Tortugas Adventure',
-        paraGraph: '$2500 to $3,500| Private Charter | Spend the Night On the Water! | Max 4 people'
+        paraGraph: '$2500 to $3,500| Private Charter | Spend the Night On the Water! | Max 4 people',
+        linkPage:'https://fareharbor.com/embeds/book/restlessnative/items/115709/?full-items=yes&flow=93101'
     }
 ]
